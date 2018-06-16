@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4bb9b25-9678-483a-8bb9-4b73c5edd90e" name="Default" comment="" />
+    <list default="true" id="e4bb9b25-9678-483a-8bb9-4b73c5edd90e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../XXMall/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XXMall/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XXMall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XXMall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/XXMall-Common/target/" />
+    <ignored path="$PROJECT_DIR$/../XXMall/XXMall-Manager/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +20,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="417">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="XXMall.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XXMall-Common/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="1404">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -40,13 +50,15 @@
         <option value="Blank Peng" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../XXMall" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/XXMall-Common/pom.xml" />
+        <option value="$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml" />
+        <option value="$PROJECT_DIR$/../XXMall/XXMall-Manager/pom.xml" />
       </list>
     </option>
   </component>
@@ -74,9 +86,12 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <showMembers ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -88,15 +103,51 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Course" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
               <item name="XXMall-Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="XXMall-Common" type="cbb8eebc:String" user="XXMall-Common" />
             </path>
           </expand>
           <select />
@@ -178,6 +229,7 @@
       <updated>1529141891713</updated>
       <workItem from="1529141894790" duration="1341000" />
       <workItem from="1529143305884" duration="83000" />
+      <workItem from="1529143455475" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1529142015626</created>
@@ -200,14 +252,22 @@
       <option name="project" value="LOCAL" />
       <updated>1529142685597</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Module Common and Manager">
+      <created>1529143671881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529143671881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1424000" />
+    <option name="totallyTimeSpent" value="2577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -215,15 +275,15 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32996634" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32996634" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946696" visible="true" weight="0.32996634" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30863538" />
+      <window_info active="true" content_ui="combo" x="667" y="74" width="585" height="891" id="Project" order="0" visible="true" weight="0.31183368" />
       <window_info anchor="bottom" id="Tail" order="11" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Learn" order="6" weight="0.32995737" />
@@ -277,34 +337,59 @@
     <MESSAGE value="init project" />
     <MESSAGE value="Change Project Name" />
     <MESSAGE value="add pom file contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pom file contents" />
+    <MESSAGE value="add Module Common and Manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Module Common and Manager" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../XXMall/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="234">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XXMall-Common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XXMall-Common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../XXMall/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
