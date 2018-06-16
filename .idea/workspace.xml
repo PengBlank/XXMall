@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4bb9b25-9678-483a-8bb9-4b73c5edd90e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../XXMall/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XXMall/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../XXMall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XXMall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,22 +20,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XXMall.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="286">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -110,11 +94,6 @@
             <path>
               <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
               <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
@@ -229,7 +208,7 @@
       <updated>1529141891713</updated>
       <workItem from="1529141894790" duration="1341000" />
       <workItem from="1529143305884" duration="83000" />
-      <workItem from="1529143455475" duration="1153000" />
+      <workItem from="1529143455475" duration="2075000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1529142015626</created>
@@ -259,15 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529143671881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add pom content">
+      <created>1529146504205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1529146504205</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2577000" />
+    <option name="totallyTimeSpent" value="3499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -275,10 +260,10 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.2637486" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946696" visible="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946696" visible="true" weight="0.2637486" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="4" />
@@ -338,7 +323,8 @@
     <MESSAGE value="Change Project Name" />
     <MESSAGE value="add pom file contents" />
     <MESSAGE value="add Module Common and Manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Module Common and Manager" />
+    <MESSAGE value="add pom content" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pom content" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../XXMall/pom.xml">
@@ -388,8 +374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="286">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
