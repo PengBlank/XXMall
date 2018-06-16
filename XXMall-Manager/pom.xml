@@ -14,7 +14,7 @@
     <modules>
         <module>XXMall-Manager-Pojo</module>
         <module>XXMall-Manaager-Dao</module>
-        <module>XXMall-Service</module>
+        <module>XXMall-Manager-Service</module>
         <module>XXMall-Manager-Web</module>
     </modules>
     <dependencies>
