@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="XXMall-Manager-Service" />
         <module name="XXMallCommon" />
+        <module name="XXMallMagerDao" />
+        <module name="XXMallManagerPojo" />
+        <module name="XXMallManagerWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

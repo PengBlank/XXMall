@@ -11,6 +11,12 @@
 
     <artifactId>XXMall-Manager</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>XXMall-Manager-Pojo</module>
+        <module>XXMall-Manaager-Dao</module>
+        <module>XXMall-Service</module>
+        <module>XXMall-Manager-Web</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>com.blank.pd</groupId>
