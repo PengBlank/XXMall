@@ -7258,7 +7258,7 @@ function buildParams( prefix, obj, traditional, add ) {
 				// numeric index to resolve deserialization ambiguity issues.
 				// Note that rack (as of 1.0.0) can't currently deserialize
 				// nested arrays properly, and attempting to do so may cause
-				// a server error. Possible fixes are to modify rack's
+				// a service error. Possible fixes are to modify rack's
 				// deserialization algorithm or to provide an option or flag
 				// to force array serialization to be shallow.
 				buildParams( prefix + "[" + ( typeof v === "object" ? i : "" ) + "]", v, traditional, add );
@@ -7934,7 +7934,7 @@ jQuery.extend({
 			}
 		}
 
-		// Set the Accepts header for the server, depending on the dataType
+		// Set the Accepts header for the service, depending on the dataType
 		jqXHR.setRequestHeader(
 			"Accept",
 			s.dataTypes[ 0 ] && s.accepts[ s.dataTypes[0] ] ?
