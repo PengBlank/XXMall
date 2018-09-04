@@ -23,7 +23,7 @@ var TT = TAOTAO = {
 	// 编辑器参数
 	kingEditorParams : {
 		filePostName  : "uploadFile",
-		uploadJson : '/rest/pic/upload',
+		uploadJson : "/rest/pic/upload",
 		dir : "image"
 	},
 	// 格式化时间
