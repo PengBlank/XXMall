@@ -1,10 +1,12 @@
 package com.blank.service.impl;
 
+import com.blank.mapper.TbItemParamExMapper;
 import com.blank.mapper.TbItemParamMapper;
 import com.blank.pojo.TbItem;
 import com.blank.pojo.TbItemExample;
 import com.blank.pojo.TbItemParam;
 import com.blank.pojo.TbItemParamExample;
+import com.blank.pojo.TbItemParamModel;
 import com.blank.service.TbItemParamService;
 import com.blank.vo.EasyUIDataGridResult;
 import com.github.pagehelper.PageHelper;
@@ -19,21 +21,20 @@ public class TbItemParamServiceImpl implements TbItemParamService {
 
 
   @Autowired
-  private TbItemParamMapper tbItemParamMapper;
+  private TbItemParamExMapper tbItemParamExMapper;
 
   @Override
   public EasyUIDataGridResult getItemParamList(Integer page, Integer rows) throws Exception{
     //设置分页信息
     PageHelper.startPage(page,rows);
     //取数据
-    TbItemParamExample tbItemParamExample = new TbItemParamExample();
-    List<TbItemParam>  itemParams = tbItemParamMapper.selectByExampleWithBLOBs(tbItemParamExample);
+    List<TbItemParamModel> itemParamModels = tbItemParamExMapper.getItemParamList(page,rows);
     //取分页信息
-    PageInfo<TbItemParam> pageInfo = new PageInfo<>(itemParams);
+    PageInfo<TbItemParamModel> pageInfo = new PageInfo<>(itemParamModels);
     //创建返回结果对象
     EasyUIDataGridResult result = new EasyUIDataGridResult();
     result.setTotal(pageInfo.getTotal());
-    result.setRows(itemParams);
+    result.setRows(itemParamModels);
     return result;
   }
 }
