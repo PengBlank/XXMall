@@ -17,11 +17,13 @@ public class ItemCatController {
   @Autowired
   private TbItemCatService tbItemCatService;
 
-  //新增商品
+  //获取商品列表
   @RequestMapping(value = "/list",method = RequestMethod.POST)
   @ResponseBody
   public List<EasyUITreeNode> getItemCat(@RequestParam(value = "id",defaultValue = "0") long parentId) {
     List<EasyUITreeNode> treeNodes = tbItemCatService.getTreeNode(parentId);
     return treeNodes;
   }
+
+
 }

@@ -1,7 +1,10 @@
 package com.blank.controller;
 
 import com.blank.pojo.PicUploadResult;
+import com.blank.pojo.TbItem;
 import com.blank.service.PictureUploadService;
+import com.blank.service.TbItemService;
+import com.blank.vo.XXMallResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,6 +16,7 @@ public class PicUploadController {
 
   @Autowired
   private PictureUploadService pictureUploadService;
+
   @RequestMapping("/rest/pic/upload")
   @ResponseBody
   public PicUploadResult uploadImgFile(MultipartFile uploadFile){
@@ -20,4 +24,5 @@ public class PicUploadController {
       result = pictureUploadService.uploadPicture(uploadFile);
       return result;
   }
+
 }

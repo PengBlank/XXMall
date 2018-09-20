@@ -46,7 +46,7 @@
 	    </table>
 	</form>
 	<div style="padding:5px">
-	    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="contentAddPage.submitForm()">提交</a>
+	    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="contentAddPage.()">提交</a>
 	    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="contentAddPage.clearForm()">重置</a>
 	</div>
 </div>
@@ -66,24 +66,24 @@
 				}
 				contentAddEditor.sync();
 				
-				/* $.post("/rest/content/save",$("#contentAddForm").serialize(), function(data){
+				$.post("/rest/content",$("#contentAddForm").serialize(), function(data){
 					if(data.status == 200){
 						$.messager.alert('提示','新增内容成功!');
     					$("#contentList").datagrid("reload");
     					TT.closeCurrentWindow();
 					}
-				}); */
-				
-				//提交到后台的RESTful
-				$.ajax({
-				   type: "POST",
-				   url: "/rest/content",
-				   data: $("#contentAddForm").serialize(),
-				   success: function(msg){
-					   $.messager.alert('提示','新增内容成功!');
-   						$("#contentList").datagrid("reload");
-   						TT.closeCurrentWindow();
-				   },
+				});
+
+				// //提交到后台的RESTful
+				// $.ajax({
+				//    type: "POST",
+				//    url: "/rest/content",
+				//    data: $("#contentAddForm").serialize(),
+				//    success: function(msg){
+				// 	   $.messager.alert('提示','新增内容成功!');
+   				// 		$("#contentList").datagrid("reload");
+   				// 		TT.closeCurrentWindow();
+				//    },
 				   error: function(){
 					   $.messager.alert('提示','新增内容失败!');
 				   }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="XXMallManagerWeb:war" />
       <artifact name="XXMallManagerWeb:war exploded" />
     </artifacts-to-build>
   </component>
@@ -40,55 +39,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java">
+      <file leaf-file-name="ItemParamController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemParamController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="308">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EasyUITreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/src/main/java/com/blank/vo/EasyUITreeNode.java">
+      <file leaf-file-name="item-param-list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemCatController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemCatController.java">
+      <file leaf-file-name="TbItemParamServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemParamServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="503">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbItemParamMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbItemParamMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbItemCat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Pojo/src/main/java/com/blank/pojo/TbItemCat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbItemParamItemMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamItemMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -96,8 +111,8 @@
       <file leaf-file-name="TbItemService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/TbItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="156">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -105,39 +120,10 @@
       <file leaf-file-name="TbItemServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="416">
+              <caret line="31" selection-start-line="31" selection-end-line="38" selection-end-column="18" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbItemCatService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/TbItemCatService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbItemCatServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemCatServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemCatController.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/target/XXMall-Manager-Web/WEB-INF/classes/com/blank/controller/ItemCatController.class">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -155,13 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dataSource</find>
-      <find>PageHelper</find>
-      <find>request.getContext</find>
-      <find>request.getContextPath()</find>
-      <find>select</find>
-      <find>selectByExample</find>
-      <find>pagehe</find>
       <find>taotao</find>
       <find>error</find>
       <find>TbItemService</find>
@@ -169,12 +148,38 @@
       <find>itemList</find>
       <find>/rest/item/cat/list</find>
       <find>selectItemCat</find>
+      <find>MapperFactoryBean</find>
+      <find>sqlSessionFactory</find>
+      <find>fdfs</find>
+      <find>fastdfs-client-java</find>
+      <find>commons-io</find>
+      <find>pring-core</find>
+      <find>spring-core</find>
+      <find>multiimage</find>
+      <find>kingEditorParams</find>
+      <find>uploadFile</find>
+      <find>picFileUpload</find>
+      <find>loadP</find>
+      <find>resources</find>
+      <find>submitForm</find>
+      <find>&lt;script</find>
+      <find>style</find>
+      <find>formatItemStatus</find>
+      <find>pageNumber</find>
+      <find>page</find>
+      <find>itemParamList</find>
+      <find>easyui-datagrid</find>
+      <find>formatItemParamData</find>
+      <find>BaseResultMap</find>
     </findStrings>
     <replaceStrings>
       <replace>request.getContextPath()</replace>
       <replace>&lt;%=request.getContextPath()%&gt;</replace>
       <replace>blank</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\XXMall\XXMall-Manager\XXMall-Manaager-Dao\src\main\java\com\blank\mapper</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -187,57 +192,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/pom.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbOrderMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamItemMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbOrderItemMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemCatMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbContentMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemDescMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbUserMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbOrderShippingMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbContentCategoryMapper.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/mybatis/SqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/target/XXMall-Manager-Web/WEB-INF/classes/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbContentCategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbContentMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemCatMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemDescMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamItemMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbOrderItemMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbOrderMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbOrderShippingMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbUserMapper.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemMapper.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/pom.xml" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/pom.xml" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/test/java/FdfsTest.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/properties/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/test/java/FdfsTest.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/PictureUploadService.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Pojo/src/main/java/com/blank/pojo/PictureResult.java" />
+        <option value="$PROJECT_DIR$/XXMall-Common/pom.xml" />
+        <option value="$PROJECT_DIR$/XXMall-Common/src/main/java/com/blank/utils/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Pojo/src/main/java/com/blank/pojo/PicUploadResult.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/properties/imageServer.properties" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/pom.xml" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/PictureUploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PicUploadController.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/js/common.js" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/XXMall-Common/src/main/java/com/blank/utils/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/XXMall-Common/src/test/java/FastDFSTest.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/pom.xml" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/test/java/FdfsTest.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/PictureUploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/PictureUploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/properties/imageServer.properties" />
         <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/TbItemService.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manaager-Dao/pom.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-list.jsp" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/XXMall-Common/src/main/java/com/blank/vo/EasyUITreeNode.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/XXMall-Common/src/main/java/com/blank/vo/EasyUITreeNode.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/TbItemService.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/TbItemCatService.java" />
-        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemCatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/XXMall-Common/src/main/java/com/blank/vo/XXMallResult.java" />
         <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/content-add.jsp" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PicUploadController.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/XXMall-Common/src/main/java/com/blank/utils/UUIDGenerator.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" />
+        <option value="$PROJECT_DIR$/XXMall-Common/src/main/java/com/blank/vo/ItemParam.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/ItemParamService.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/ItemParamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/TbItemParamService.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-list.jsp" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemParamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemParamController.java" />
+        <option value="$PROJECT_DIR$/XXMall-Common/pom.xml" />
+        <option value="$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemParamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" />
+        <option value="$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemParamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamMapper.xml" />
       </list>
     </option>
   </component>
@@ -266,7 +271,16 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="XXMall-Manager-Pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="XXMall-Manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="XXMall-Manager-Service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="XXMall-Manager-Service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -277,19 +291,14 @@
           <item name="XXMall-Manager-Web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="XXMall-Parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -308,17 +317,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="XXMall-Common" type="cbb8eebc:String" user="XXMall-Common" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="XXMall" type="58d84e3e:PackageViewProjectNode" />
-              <item name="XXMallCommon" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -364,6 +362,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blank" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blank" type="462c0819:PsiDirectoryNode" />
               <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -396,28 +414,7 @@
               <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
               <item name="XXMall" type="462c0819:PsiDirectoryNode" />
               <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Service" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manaager-Dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -426,11 +423,64 @@
               <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
               <item name="XXMall" type="462c0819:PsiDirectoryNode" />
               <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Service" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manaager-Dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager-Pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager-Pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager-Pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager-Pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager-Pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager-Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="XXMall-Manager-Service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
@@ -439,9 +489,6 @@
               <item name="XXMall-Manager-Service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
@@ -491,26 +538,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
@@ -541,129 +568,50 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XXMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XXMall" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="XXMall-Manager-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
       <pane id="Course" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="XXMall" type="58d84e3e:PackageViewProjectNode" />
+              <item name="XXMallCommon" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/apache-tomcat-8.5.31/webapps" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..///////////////////fastdfs-client-java-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2045977" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp\commons" />
-      <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp\WEB-INF" />
-      <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp" />
-      <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp\JS" />
-      <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Pojo\src\main\java\com\blank\pojo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\XXMall\XXMall-Manager\XXMall-Manaager-Dao\src\main\java\com\blank\mapper" />
       <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Service\src\main\java\com\blank\service" />
       <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp\CSS" />
       <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp" />
       <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp\WEB-INF\jsp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\target\test-classes" />
+      <recent name="E:\XXMall\XXMall-Common\src\main\resources" />
+      <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp\commons" />
+      <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp\WEB-INF" />
+      <recent name="E:\XXMall\XXMall-Manager\XXMall-Manager-Web\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -678,9 +626,77 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat8.5.31">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="FastDFSTest.testFastDFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XXMallCommon" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FastDFSTest" />
+      <option name="METHOD_NAME" value="testFastDFS" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FdfsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XXMallManagerWeb" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FdfsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FdfsTest.testFastDFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XXMallManagerWeb" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FdfsTest" />
+      <option name="METHOD_NAME" value="testFastDFS" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FdfsTest.uploadFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XXMallManagerWeb" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FdfsTest" />
+      <option name="METHOD_NAME" value="uploadFileTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -723,7 +739,7 @@
     <configuration name="Tomcat8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat8.5.31" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="XXMallManagerWeb:war">
+        <artifact name="XXMallManagerWeb:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -788,10 +804,24 @@
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="XXMallManagerWeb:war exploded" />
-          <artifact name="XXMallManagerWeb:war" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat8.5.31" />
+      <item itemvalue="JUnit.FdfsTest.uploadFileTest" />
+      <item itemvalue="JUnit.FdfsTest" />
+      <item itemvalue="JUnit.FastDFSTest.testFastDFS" />
+      <item itemvalue="JUnit.FdfsTest.testFastDFS" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FdfsTest.testFastDFS" />
+        <item itemvalue="JUnit.FastDFSTest.testFastDFS" />
+        <item itemvalue="JUnit.FdfsTest.uploadFileTest" />
+        <item itemvalue="JUnit.FdfsTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringGeneralSettings">
     <option name="allowAutoConfigurationMode" value="true" />
@@ -840,7 +870,29 @@
       <workItem from="1532854657221" duration="594000" />
       <workItem from="1532958411394" duration="4208000" />
       <workItem from="1533041757139" duration="3230000" />
-      <workItem from="1533045015834" duration="514000" />
+      <workItem from="1533045015834" duration="2560000" />
+      <workItem from="1533126635807" duration="672000" />
+      <workItem from="1533211611265" duration="1162000" />
+      <workItem from="1534948161218" duration="1984000" />
+      <workItem from="1535374587851" duration="3861000" />
+      <workItem from="1535460627265" duration="1268000" />
+      <workItem from="1535548692257" duration="1686000" />
+      <workItem from="1535631118121" duration="6445000" />
+      <workItem from="1535986057423" duration="4828000" />
+      <workItem from="1536067745826" duration="2364000" />
+      <workItem from="1536147869944" duration="1321000" />
+      <workItem from="1536238125373" duration="7089000" />
+      <workItem from="1536587395023" duration="2239000" />
+      <workItem from="1536670463023" duration="1202000" />
+      <workItem from="1536979140183" duration="807000" />
+      <workItem from="1537187735328" duration="10274000" />
+      <workItem from="1537200849438" duration="741000" />
+      <workItem from="1537360649841" duration="8358000" />
+      <workItem from="1537370693060" duration="1621000" />
+      <workItem from="1537450307305" duration="863000" />
+      <workItem from="1537451393226" duration="121000" />
+      <workItem from="1537451600172" duration="20000" />
+      <workItem from="1537451851758" duration="3751000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1529142015626</created>
@@ -908,75 +960,108 @@
     <option name="localTasksCounter" value="10" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FdfsTest - 2018.08.27 at 22h 24m 00s.xml">
+      <configuration name="FdfsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_uploadFileTest - 2018.08.27 at 22h 30m 37s.xml">
+      <configuration name="FdfsTest.uploadFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_uploadFileTest - 2018.08.29 at 23h 38m 40s.xml">
+      <configuration name="FdfsTest.uploadFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_uploadFileTest - 2018.08.30 at 22h 53m 29s.xml">
+      <configuration name="FdfsTest.uploadFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFSTest_testFastDFS - 2018.09.03 at 23h 51m 36s.xml">
+      <configuration name="FastDFSTest.testFastDFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFSTest_testFastDFS - 2018.09.03 at 23h 52m 26s.xml">
+      <configuration name="FastDFSTest.testFastDFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFSTest_testFastDFS - 2018.09.03 at 23h 52m 40s.xml">
+      <configuration name="FastDFSTest.testFastDFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testFastDFS - 2018.09.03 at 23h 59m 56s.xml">
+      <configuration name="FdfsTest.testFastDFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testFastDFS - 2018.09.04 at 00h 03m 13s.xml">
+      <configuration name="FdfsTest.testFastDFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testFastDFS - 2018.09.04 at 00h 03m 27s.xml">
+      <configuration name="FdfsTest.testFastDFS" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65100000" />
+    <option name="totallyTimeSpent" value="129823000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.3619403" side_tool="true" weight="0.30415264" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32996634" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3619403" side_tool="true" weight="0.30415264" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32996634" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.20149253" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Tail" order="11" />
+      <window_info anchor="bottom" id="Tail" order="9" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6380597" weight="0.318743" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32996634" />
+      <window_info anchor="bottom" id="Debug" order="16" sideWeight="0.6380597" weight="0.335578" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32996634" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946696" weight="0.26233184" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" weight="0.38271606" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32996634" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" x="667" y="74" width="585" height="891" id="Project" order="0" visible="true" weight="0.21321961" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.26233184" />
+      <window_info anchor="bottom" id="Run" order="15" sideWeight="0.49520257" weight="0.38271606" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32996634" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info active="true" content_ui="combo" x="667" y="74" width="585" height="891" id="Project" order="0" visible="true" weight="0.21055438" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
       <window_info id="Learn" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32996634" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="5" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32996634" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32996634" />
       <window_info id="Image Layers" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" weight="0.38271606" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="15" sideWeight="0.49520257" weight="0.38271606" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.3619403" side_tool="true" weight="0.30415264" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32996634" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3619403" side_tool="true" weight="0.30415264" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32996634" />
+      <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946696" weight="0.26233184" />
+      <window_info anchor="bottom" id="Tail" order="9" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.26233184" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.20149253" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
-      <window_info active="true" content_ui="combo" x="667" y="74" width="585" height="891" id="Project" order="0" visible="true" weight="0.28411514" />
+      <window_info active="true" content_ui="combo" x="667" y="74" width="585" height="891" id="Project" order="0" visible="true" weight="0.31823027" />
       <window_info id="Learn" order="7" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -984,9 +1069,10 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Tail" order="11" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6380597" visible="true" weight="0.30415264" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Debug" order="16" sideWeight="0.6380597" weight="0.335578" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1035,341 +1121,209 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="29" />
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/js/common.js</url>
+          <line>69</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemParamController.java</url>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="66" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbContentCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbContentMapper.java">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Pojo/src/main/java/com/blank/pojo/TbItemDesc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamMapper.java">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-trans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="520">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemDescMapper.java">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/PictureUploadServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="160">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/target/XXMall-Manager-Web/WEB-INF/classes/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/PictureUploadService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbContentMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PicUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8859">
-          <caret line="343" column="59" selection-start-line="343" selection-start-column="59" selection-end-line="343" selection-end-column="59" />
+        <state relative-caret-position="299">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemCatMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/content-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6337">
-          <caret line="246" column="59" selection-start-line="246" selection-start-column="59" selection-end-line="246" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemDescMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5843">
-          <caret line="227" column="59" selection-start-line="227" selection-start-column="59" selection-end-line="227" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6259">
-          <caret line="243" column="59" selection-start-line="243" selection-start-column="59" selection-end-line="243" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6259">
-          <caret line="243" column="59" selection-start-line="243" selection-start-column="59" selection-end-line="243" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbOrderItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6337">
-          <caret line="246" column="59" selection-start-line="246" selection-start-column="59" selection-end-line="246" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbOrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9821">
-          <caret line="380" column="59" selection-start-line="380" selection-start-column="59" selection-end-line="380" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbOrderShippingMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7507">
-          <caret line="291" column="59" selection-start-line="291" selection-start-column="59" selection-end-line="291" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5876">
-          <caret line="232" column="59" selection-start-line="232" selection-start-column="59" selection-end-line="232" selection-end-column="59" />
+        <state relative-caret-position="390">
+          <caret line="74" column="19" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="476" selection-start-line="476" selection-end-line="476" />
+        <state relative-caret-position="137">
+          <caret line="494" selection-start-line="494" selection-end-line="494" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.2.0.RELEASE/spring-web-4.2.0.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="163">
+          <caret line="403" selection-start-line="403" selection-end-line="403" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.9/druid-1.0.9.jar!/com/alibaba/druid/pool/DruidDataSource.class">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/src/main/java/com/blank/utils/UUIDGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="858">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Pojo/src/main/java/com/blank/pojo/TbItemExample.java">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3432">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+        <state relative-caret-position="-10">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="156">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbContentCategoryMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/src/main/java/com/blank/vo/ItemParam.java" />
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemCatController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="250" column="61" selection-start-line="250" selection-start-column="61" selection-end-line="250" selection-end-column="61" />
+        <state relative-caret-position="74">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemCatServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="130">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/src/main/java/com/blank/vo/XXMallResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/src/main/java/com/blank/vo/EasyUIDataGridResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/target/XXMall-Manager-Web/WEB-INF/jsp/item-param-list.jsp" />
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/target/XXMall-Manager-Web/WEB-INF/jsp/item-list.jsp" />
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        <state relative-caret-position="217">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.2.0.RELEASE/spring-tx-4.2.0.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        <state relative-caret-position="163">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.2.0.RELEASE/spring-tx-4.2.0.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="137">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.2.0.RELEASE/spring-web-4.2.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="456" selection-start-line="456" selection-end-line="456" />
+        <state relative-caret-position="247">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
-          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+          <caret line="2" column="61" lean-forward="true" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/src/main/java/com/blank/vo/EasyUIDataGridResult.java">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/target/XXMall-Manager-Web/css/taotao.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/target/XXMall-Manager-Web/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="118" column="42" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="87" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="99" column="23" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/src/main/java/com/blank/vo/EasyUITreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/TbItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="416">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -1377,41 +1331,159 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5434">
+          <caret line="209" column="43" selection-start-line="209" selection-start-column="34" selection-end-line="209" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2158">
+          <caret line="83" column="57" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/TbItemParamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Pojo/src/main/java/com/blank/pojo/TbItemParamExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Pojo/src/main/java/com/blank/pojo/TbItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/TbItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="31" selection-start-line="31" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemParamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemCatServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="260">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/target/XXMall-Manager-Web/WEB-INF/classes/com/blank/controller/ItemCatController.class">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Service/src/main/java/com/blank/service/impl/TbItemParamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Pojo/src/main/java/com/blank/pojo/TbItemParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Pojo/src/main/java/com/blank/pojo/TbItemCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemCatMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/PageController.java">
+    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manaager-Dao/src/main/java/com/blank/mapper/TbItemParamMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../XXMall/XXMall-Manager/XXMall-Manager-Web/src/main/java/com/blank/controller/ItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1469,7 +1541,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>XXMallManager</last-edited>
+          <last-edited>XXMallManagerPojo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
