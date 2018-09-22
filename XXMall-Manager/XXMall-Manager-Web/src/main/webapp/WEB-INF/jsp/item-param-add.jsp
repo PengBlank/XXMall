@@ -41,32 +41,32 @@
 			fun:function(node){
 			$(".addGroupTr").hide().find(".param").remove();
 				//  判断选择的目录是否已经添加过规格
-			   <%--$.getJSON("/rest/item/param/" + node.id,function(data){--%>
-				  <%--if(data){--%>
-					  <%--$.messager.alert("提示", "该类目已经添加，请选择其他类目。", undefined, function(){--%>
-						 <%--$("#itemParamAddTable .selectItemCat").click();--%>
-					  <%--});--%>
-					  <%--return ;--%>
-				  <%--}--%>
-				  <%--$(".addGroupTr").show();--%>
-			  <%--}); --%>
+			   $.getJSON("/rest/item/param/" + node.id,function(data){
+				  if(data.status=="200" && data.data){
+					  $.messager.alert("提示", "该类目已经添加，请选择其他类目。", undefined, function(){
+						 $("#itemParamAddTable .selectItemCat").click();
+					  });
+					  return ;
+				  }
+				  $(".addGroupTr").show();
+			  });
 				
-			  $.ajax({
-				   type: "GET",
-				   url: "/rest/item/param/" + node.id,
-				   success: function(data){
-					   if(data){
-						  $.messager.alert("提示", "该类目已经添加，请选择其他类目。", undefined, function(){
-							 $("#itemParamAddTable .selectItemCat").click();
-						  });
-						  return ;
-					  }
-					  $(".addGroupTr").show();
-				   },
-				   error: function(){
-					   alert("error");
-				   }
-				});
+			  <%--$.ajax({--%>
+				   <%--type: "GET",--%>
+				   <%--url: "/rest/item/param/" + node.id,--%>
+				   <%--success: function(data){--%>
+					   <%--if(data){--%>
+						  <%--$.messager.alert("提示", "该类目已经添加，请选择其他类目。", undefined, function(){--%>
+							 <%--$("#itemParamAddTable .selectItemCat").click();--%>
+						  <%--});--%>
+						  <%--return ;--%>
+					  <%--}--%>
+					  <%--$(".addGroupTr").show();--%>
+				   <%--},--%>
+				   <%--error: function(){--%>
+					   <%--alert("error");--%>
+				   <%--}--%>
+				<%--});--%>
 			}
 		});
 		

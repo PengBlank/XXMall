@@ -12,6 +12,11 @@ public class XXMallResult {
     this.data="";
   }
 
+  public XXMallResult (Object data){
+    this.status = 200;
+    this.msg = "请求成功";
+    this.data= data;
+  }
   public XXMallResult(int status, String msg){
     this.status = status;
     this.msg =msg;
@@ -23,10 +28,13 @@ public class XXMallResult {
     this.status = status;
   }
 
+  public static XXMallResult success(Object data){
+    return  new XXMallResult(data);
+  }
+
   public static XXMallResult success(){
     return  new XXMallResult();
   }
-
   public static XXMallResult error(int status, String msg){
     return new XXMallResult(status,msg);
   }

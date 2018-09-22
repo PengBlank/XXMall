@@ -6,9 +6,11 @@ import com.blank.pojo.TbItem;
 import com.blank.pojo.TbItemExample;
 import com.blank.pojo.TbItemParam;
 import com.blank.pojo.TbItemParamExample;
+import com.blank.pojo.TbItemParamExample.Criteria;
 import com.blank.pojo.TbItemParamModel;
 import com.blank.service.TbItemParamService;
 import com.blank.vo.EasyUIDataGridResult;
+import com.blank.vo.XXMallResult;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import java.util.ArrayList;
@@ -23,12 +25,15 @@ public class TbItemParamServiceImpl implements TbItemParamService {
   @Autowired
   private TbItemParamExMapper tbItemParamExMapper;
 
+  @Autowired
+  private TbItemParamMapper tbItemParamMapper;
+
   @Override
-  public EasyUIDataGridResult getItemParamList(Integer page, Integer rows) throws Exception{
+  public EasyUIDataGridResult getItemParamList(Integer page, Integer rows) throws Exception {
     //设置分页信息
-    PageHelper.startPage(page,rows);
+    PageHelper.startPage(page, rows);
     //取数据
-    List<TbItemParamModel> itemParamModels = tbItemParamExMapper.getItemParamList(page,rows);
+    List<TbItemParamModel> itemParamModels = tbItemParamExMapper.getItemParamList(page, rows);
     //取分页信息
     PageInfo<TbItemParamModel> pageInfo = new PageInfo<>(itemParamModels);
     //创建返回结果对象
@@ -36,5 +41,18 @@ public class TbItemParamServiceImpl implements TbItemParamService {
     result.setTotal(pageInfo.getTotal());
     result.setRows(itemParamModels);
     return result;
+  }
+
+  @Override
+  public XXMallResult queryExsitParam(long cid) {
+    TbItemParamExample example = new TbItemParamExample();
+    Criteria criteria = example.createCriteria();
+    criteria.andItemCatIdEqualTo(cid);
+    List<TbItemParam> list = tbItemParamMapper.selectByExample(example);
+    if (list != null && list.size() > 0) {
+      TbItemParam itemParam = list.get(0);
+      return XXMallResult.success(itemParam);
+    }
+    return  XXMallResult.success();
   }
 }
