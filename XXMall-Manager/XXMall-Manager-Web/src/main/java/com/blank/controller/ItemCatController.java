@@ -17,7 +17,7 @@ public class ItemCatController {
   @Autowired
   private TbItemCatService tbItemCatService;
 
-  //获取商品列表
+  //获取商品类目列表
   @RequestMapping(value = "/list",method = RequestMethod.POST)
   @ResponseBody
   public List<EasyUITreeNode> getItemCat(@RequestParam(value = "id",defaultValue = "0") long parentId) {

@@ -15,7 +15,7 @@
 <div data-options="region:'west',title:'菜单',split:true" style="width:180px;">
     <ul id="menu" class="easyui-tree" style="margin-top: 10px;margin-left: 5px;">
         <li>
-            <span>商品管理</span>
+            <span>商品管理444</span>
             <ul>
                 <li data-options="attributes:{'url':'/rest/page/item-add'}">新增商品</li>
                 <li data-options="attributes:{'url':'/rest/page/item-list'}">查询商品</li>

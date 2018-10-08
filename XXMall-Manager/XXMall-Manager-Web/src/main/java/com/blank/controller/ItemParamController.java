@@ -27,7 +27,7 @@ public class ItemParamController {
   }
 
   //判断模板是否存在(根据cid)
-  @RequestMapping(value = "/param/{cid}", method = {RequestMethod.GET})
+  @RequestMapping(value = "/param/{cid}",method = {RequestMethod.GET})
   @ResponseBody
   public XXMallResult queryExsitParam(@PathVariable Long cid) {
     return tbItemParamService.queryExsitParam(cid);
@@ -53,18 +53,18 @@ public class ItemParamController {
     return tbItemParamService.delItemCatParam(list);
   }
 
-  //编辑模板参数
-  @RequestMapping(value = "/param/update", method = {RequestMethod.POST})
-  @ResponseBody
-  public XXMallResult updateItemCatParam(Long[] ids) {
-    //Array To List
-//    Long[] idsArray = params.getIds();
-    List<Long> list = Arrays.asList(ids);
-    //List to Array
-    //List<Long> list = params.getIds();
-    //Long[] ids = list.toArray(new Long[list.size()]);
-    return tbItemParamService.updateItemCatParam(list);
-  }
+//  //编辑模板参数
+//  @RequestMapping(value = "/param/update", method = {RequestMethod.POST})
+//  @ResponseBody
+//  public XXMallResult updateItemCatParam(Long[] ids) {
+//    //Array To List
+////    Long[] idsArray = params.getIds();
+//    List<Long> list = Arrays.asList(ids);
+//    //List to Array
+//    //List<Long> list = params.getIds();
+//    //Long[] ids = list.toArray(new Long[list.size()]);
+//    return tbItemParamService.updateItemCatParam(list);
+//  }
 
 
 }

@@ -9,5 +9,5 @@ public interface TbItemParamService {
       XXMallResult queryExsitParam(long cid);
       XXMallResult addItemCatParam(long cid,String paramData);
       XXMallResult delItemCatParam(List ids);
-      XXMallResult updateItemCatParam(List ids);
+      XXMallResult updateItemCatParam(Long id);
 }

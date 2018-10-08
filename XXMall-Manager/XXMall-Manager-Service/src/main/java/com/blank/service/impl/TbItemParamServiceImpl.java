@@ -46,7 +46,7 @@ public class TbItemParamServiceImpl implements TbItemParamService {
     TbItemParamExample example = new TbItemParamExample();
     Criteria criteria = example.createCriteria();
     criteria.andItemCatIdEqualTo(cid);
-    List<TbItemParam> list = tbItemParamMapper.selectByExample(example);
+    List<TbItemParam> list = tbItemParamMapper.selectByExampleWithBLOBs(example);//paramData为text类型，必须用此方法才能带出来
     if (list != null && list.size() > 0) {
       TbItemParam itemParam = list.get(0);
       return XXMallResult.success(itemParam);
@@ -76,10 +76,12 @@ public class TbItemParamServiceImpl implements TbItemParamService {
 
   @Override
   public XXMallResult updateItemCatParam(Long id) {
-    TbItemParamExample example = new TbItemParamExample();
-    Criteria criteria = example.createCriteria();
-    criteria.andIdEqualTo(id);
-    tbItemParamMapper.updateByExample(example);
-    return XXMallResult.success();
+//    TbItemParamExample example = new TbItemParamExample();
+//    Criteria criteria = example.createCriteria();
+//    criteria.andIdEqualTo(id);
+//    tbItemParamMapper.updateByExample(example);
+//    return XXMallResult.success();
+//  }
+    return null;
   }
 }
