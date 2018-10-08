@@ -10,7 +10,10 @@
     <modules>
         <module>XXMall-Common</module>
         <module>XXMall-Manager</module>
+        <module>XXMall-Rest</module>
+        <module>XXMall-Portal</module>
     </modules>
+
     <packaging>pom</packaging>
 
     <properties>
