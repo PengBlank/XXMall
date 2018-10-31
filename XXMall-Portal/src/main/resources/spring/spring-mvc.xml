@@ -17,15 +17,5 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <!--处理静态资源-->
-    <mvc:default-servlet-handler/>
-    <mvc:resources location="/js/" mapping="/js/**" />
-    <mvc:resources location="/css/" mapping="/css/**" />
-
-    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <!-- 5MB 5 * 1024 * 1024-->
-        <property name="maxUploadSize" value="5242880" />
-        <property name="maxInMemorySize" value="5242880" />
-    </bean>
 
 </beans>

@@ -1,12 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<script type="text/javascript" src="/js/base-v1.js" charset="utf-8"></script>
+<%
+	String contextPath=request.getContextPath();
+	//替代 ${pageContext.request.contextPath }写法；
+	//js和css是不能放在WEB-INFX下的。否则会访问不到
+%>
+<script type="text/javascript" src="<%=contextPath %>/js/base-v1.js" charset="utf-8"></script>
 <!--shortcut start-->
 <jsp:include page="../commons/shortcut.jsp" />
 <!--shortcut end-->
 <div id="o-header-2013">
 	<div class="w" id="header-2013">
-		<div id="logo-2013" class="ld"><a href="http://www.taotao.com/" hidefocus="true" clstag="homepage|keycount|home2013|02a"><b></b><img src="/images/taotao-logo.gif" width="270" height="60" alt="淘淘"></a></div>
+		<div id="logo-2013" class="ld"><a href="http://www.taotao.com/" hidefocus="true" clstag="homepage|keycount|home2013|02a"><b></b><img src="<%=contextPath %>/images/taotao-logo.gif" width="270" height="60" alt="淘淘"></a></div>
 		<!--logo end-->
 		<div id="search-2013">
 			<div class="i-search ld">
